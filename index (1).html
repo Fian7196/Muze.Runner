@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muze Runner</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Maze Runner</h1>
+
+<div id="pauseOverlay">PAUSED</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<div id="info">
+  Langkah: <span id="steps">0</span><br>
+  Timer: <span id="timer">0</span> detik<br>
+  Best Step: <span id="best">-</span><br>
+  Tekan <strong>P</strong> untuk pause / resume<br>
+  Tekan <strong>R</strong> untuk restart level<br>
+  Tekan <strong>N</strong> untuk lanjut level
+</div>
+<button id="restartBtn">Restart Level</button>
+
+<!-- AUDIO -->
+<audio id="stepSound" src="step.mp3"></audio>
+<audio id="keySound" src="key.mp3"></audio>
+<audio id="winSound" src="win.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
