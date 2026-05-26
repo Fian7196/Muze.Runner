@@ -1,0 +1,13 @@
+{
+  "name": "maze-runner",
+  "version": "1.0.0",
+  "description": "Game Maze Runner dengan efek pulse, audio bump, dan kontrol pause.",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server . -p 8080",
+    "package": "npm pack"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
